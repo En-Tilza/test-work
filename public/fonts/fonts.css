@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'Suisse Intl';
+	src:
+	url('./SuisseIntl-Bold.eot?#iefix') format('embedded-opentype'),
+	url('./SuisseIntl-Bold.woff') format('woff'),
+	url('./SuisseIntl-Bold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Suisse Intl';
+	src:
+	url('./SuisseIntl-Regular.eot?#iefix') format('embedded-opentype'),
+	url('./SuisseIntl-Regular.woff') format('woff'),
+	url('./SuisseIntl-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Suisse Intl';
+	src:
+	url('./SuisseIntl-Light.eot?#iefix') format('embedded-opentype'),
+	url('./SuisseIntl-Light.woff') format('woff'),
+	url('./SuisseIntl-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}

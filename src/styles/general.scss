@@ -1,0 +1,40 @@
+@import 'styles/theme.scss';
+
+body, button, input, textarea {
+    font-family: Suisse Intl, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    &:hover, &:focus {
+        outline: none;
+    }
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+body, ul, ol, p, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    &.opened {
+        overflow: hidden;
+    }
+}
+#root {
+    max-width: 100vw;
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #2C2C2C;
+}

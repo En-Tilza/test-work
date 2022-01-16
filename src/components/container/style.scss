@@ -1,0 +1,8 @@
+@import 'styles/theme.scss';
+
+.container {
+    width: calcFluid(1310, 1630, 1440, 1920);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}

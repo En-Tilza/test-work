@@ -1,0 +1,56 @@
+@import 'styles/theme.scss';
+
+.body {
+    display: flex;
+    justify-content: space-between;
+    @media(max-width: 575px) {
+        flex-direction: column;
+    }
+    &__left {
+        padding-top: calcFluid(100, 209, 575, 1920);
+        @media(max-width: 575px) {
+            padding-top: calcFluid(30, 100, 320, 575);
+        }
+    }
+    &__right {
+        padding-top: calcFluid(60, 83, 575, 1920);
+        @media(max-width: 575px) {
+            padding-top: calcFluid(30, 60, 320, 575);
+        }
+    }
+}
+
+.text {
+    @include font-text;
+	color: #fff;
+    margin-bottom: 2px;
+    @media(max-width: 575px) {
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+.title {
+    @include font-title;
+	font-weight: 600;
+	color: #fff;
+    @media(max-width: 575px) {
+        text-align: center;
+    }
+}
+
+.banner {
+    width: 1010px;
+    margin-right: calcFluid(-238, -64, 1440, 1920);
+    @media(max-width: 1440px) {
+        margin-right: -238px;
+    }
+    @media(max-width: 1199px) {
+        width: calcFluid(576, 1010, 768, 1199);
+        margin-right: calcFluid(-154, -238, 768, 1199);
+    }
+    @media(max-width: 575px) {
+        width: calcFluidP(30, 0, 320, 575);
+        margin: 0 calcFluid(-15, 0, 320, 575);
+    }
+}
